@@ -10,7 +10,9 @@
 直接运行index.html即可
 
 ```
-https://github.com/niantianlei/taobaoyemian.git
+
+克隆，或者直接下载
+git clone https://github.com/niantianlei/taobaoyemian.git
 
 ```
 
@@ -25,10 +27,23 @@ https://github.com/niantianlei/taobaoyemian.git
 
 >  如有问题请直接在 Issues 中提，或者您发现问题并有非常好的解决方案，欢迎 PR 👍
 
+>  在firefox和ie中搜索栏有一点错位，找了很多办法，也没解决。。。
 
+## 效果演示（请用chrome预览）
 
-## 效果演示
+## top上部导航 
 
-[查看demo请戳这里](http://test.fe.ptdev.cn/elm/)（请用chrome预览）
+<img src="https://github.com/niantianlei/taobaoyemian/master/git-img/top-nav.png"/>
 
-在firefox和ie中搜索栏有一点错位，找了很多办法，也没解决。。。
+## top-search滚动滑轮固定搜索
+
+<img src="https://github.com/niantianlei/taobaoyemian/master/git-img/top-search.png"/>
+
+## side-bar侧面导航
+
+<img src="https://github.com/niantianlei/taobaoyemian/master/git-img/side-bar.png"/>
+
+## main内容
+
+<img src="https://github.com/niantianlei/taobaoyemian/master/git-img/main.png"/>
+
