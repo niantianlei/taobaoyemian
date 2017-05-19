@@ -1,0 +1,38 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, del, em, img, i, ol, ul, li{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    font-family: verdana, Arial;
+    font-size: 12px;
+    line-height:1;
+    background: #fff;
+}
+ul {
+    list-style:none;
+}
+a {
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    color: #6c6c6c;
+}
+a:hover{
+    color: #f40;
+    transition: color .2s ease-in-out;
+}
+del {
+    text-decoration: line-through;
+}
+
+input, select {
+    vertical-align:middle;
+}

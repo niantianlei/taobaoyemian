@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> 1 </title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+<style type="text/css">
+	* { margin:0; padding:0; }
+	a { color:#2B93D2; text-decoration:none; }
+	a:hover { color:#E31E1C; text-decoration:underline; }
+
+/* v_show style */
+.card {
+	height: 65px; width: 260px; 
+}
+.v_content{
+	float: left;
+	width: 220px;
+	height: 65px;
+	overflow: hidden;
+}
+.v_content ul {
+	width: 440px; position: relative;
+}
+.v_content ul li {
+	list-style: none;
+	display: inline;
+	margin: 4px; 
+	float: left;
+	overflow: hidden;
+}
+.v_content ul li img{
+	width: 45px;
+	height: 45px;
+}
+.v_content ul li div a{
+	display: block;
+	text-align: center;
+	overflow: hidden;
+}
+.small {
+	font-size: 5px;
+}
+.change-left, .change-right {
+	float: left;
+	width: 20px;
+	height: 80px;
+}
+</style>
+<script src="js/jquery_1.9.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function(){
+	var v_width = $('.v_content').width();
+	var $v_show = $('.v_content ul');
+	var page = 1;
+	$('[turn=left]').click(function(){
+		if(page == 2){
+			$v_show.animate({ left: '+='+v_width}, "slow");
+			page = 1;
+		}
+	});
+	$('[turn=right]').click(function(){
+		if(page==1){
+			$v_show.animate({ left: '-='+v_width}, "slow");
+			page = 2;
+		}
+	});
+})
+
+</script>
+</head>
+<body>
+<div class="card">
+	<div class="change-left"><span turn="left" class="fa fa-chevron-left" style="margin: 20px 0"></span></div>
+	<div class="v_content">
+		<ul>
+			<li><a href="#"><img src="img/user/user1.png" alt="生日特权" /></a><div><a href="#" class="small">生日特权</a></div></li>
+			<li><a href="#"><img src="img/user/user2.png" alt="中信淘宝V卡" /></a><div><a href="#" class="small">中信淘宝</a></div></li>
+			<li><a href="#"><img src="img/user/user3.png" alt="VIP价" /></a><div><a href="#" class="small">VIP价</a></div></li>
+			<li><a href="#"><img src="img/user/user4.png" alt="活动尊享" /></a><div><a href="#" class="small">活动尊享</a></div></li>
+			<li><a href="#"><img src="img/user/user5.png" alt="极速退款" /></a><div><a href="#" class="small">极速退款</a></div></li>
+	     </ul>
+	</div>
+	<div class="change-right"><span turn="right" class="fa fa-chevron-right" style="margin:20px 0"></span></div>
+</div>
+
+
+</body>
+</html>
