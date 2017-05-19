@@ -29,11 +29,11 @@ git clone https://github.com/niantianlei/taobaoyemian.git
 
 >  在firefox和ie中搜索栏有一点错位，找了很多办法，也没解决。。。
 
-## 效果演示（请用chrome预览）
+## 效果演示（请使用chrome浏览器）
 
 ## top上部导航 
 
-![image](https://github.com/niantianlei/taobaoyemian/raw/master/git-img/top-nav.png)
+<img src="/taobaoyemian/git-img/top-nav.png"/>
 
 ## top-search滚动滑轮固定搜索
 
