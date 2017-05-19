@@ -33,7 +33,7 @@ git clone https://github.com/niantianlei/taobaoyemian.git
 
 ## top上部导航 
 
-<img src="https://github.com/niantianlei/taobaoyemian/tree/master/taobaoyemian/git-img/top-nav.png"/>
+<img src="https://raw.githubusercontent.com/niantianlei/taobaoyemian/master/taobaoyemian/git-img/top-nav.png"/>
 
 ## top-search滚动滑轮固定搜索
 
