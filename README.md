@@ -10,7 +10,7 @@
 直接运行index.html即可
 
 ```
-git clone https://github.com/bailicangdu/vue2-elm.git  
+https://github.com/niantianlei/taobaoyemian.git
 
 ```
 
