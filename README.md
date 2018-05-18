@@ -33,17 +33,17 @@ git clone https://github.com/niantianlei/taobaoyemian.git
 
 ## top上部导航 
 
-<img src="/taobaoyemian/git-img/top-nav.png"/>
+<img src="/git-img/top-nav.png"/>
 
 ## top-search滚动滑轮固定搜索
 
-<img src="/taobaoyemian/git-img/top-search.png"/>
+<img src="/git-img/top-search.png"/>
 
 ## side-bar侧面导航
 
-<img src="./taobaoyemian/git-img/top-search.png"/>
+<img src="/git-img/top-search.png"/>
 
 ## main内容
 
-<img src="/taobaoyemian/git-img/main.png"/>
+<img src="/git-img/main.png"/>
 
